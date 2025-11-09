@@ -4,7 +4,7 @@ const parts = url.split("/");
 const novelName = parts[parts.length - 2];
 let timer = null;
 
-const apiURL = "https://shhossain.pythonanywhere.com";
+const apiURL = "http://localhost:5000";
 
 // Function to show a loading message
 const show_loading = (element) => {
