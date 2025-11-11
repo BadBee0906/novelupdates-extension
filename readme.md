@@ -6,17 +6,15 @@ A browser extension that adds a recommendation series and description for recomm
 ![Demo](image.png)
 
 ## Installation
-### Web Store
-* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/novelupdates-extension/)
 
-### Download From Source
-1. Download the latest zip from [here](https://github.com/shhossain/novelupdates-extension/archive/refs/heads/main.zip)
-2. Unzip the file
-3. Go to `chrome://extensions/` in your browser
-4. Turn on developer mode (top right corner)
-5. Click on `Load unpacked` (top left corner)
-6. Select the folder you unzipped
-7. Go to [novelupdates.com](https://www.novelupdates.com/series/lord-of-the-mysteries/) and enjoy!
+## How to Test
+1. Download and unzip the extension folder.
+2. Install Python dependencies: `pip install -r requirements.txt`.
+3. Run the backend: `python app.py` (starts at http://localhost:5000).
+4. Load the extension in Chrome (`chrome://extensions/ > Load unpacked`).
+5. Visit a NovelUpdates series page (e.g., https://www.novelupdates.com/series/coiling-dragon/).
+6. Check the "Recommendations (AI)" section—should load from local backend.
+7. Use the popup to adjust parameters (Top N, etc.) and save.
 
 ## Usage
 
